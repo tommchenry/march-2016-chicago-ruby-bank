@@ -3,7 +3,7 @@ class AddAccounts < ActiveRecord::Migration
     create_table :accounts do |t|
 
       t.integer :balance
-      t.integer :bank_id
+      t.integer :moneyhole_id
       t.integer :user_id
 
       t.timestamps null: false
